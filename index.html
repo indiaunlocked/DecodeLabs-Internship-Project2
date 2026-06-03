@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="GreenRoots — Your local plant nursery and gardening store. Discover rare indoor plants, gardening tools, and expert care tips." />
+  <title>GreenRoots | Grow Something Beautiful</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Skip to content — Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container" aria-label="Primary navigation">
+
+      <a href="#hero" class="nav-logo" aria-label="GreenRoots — Go to homepage">
+        <span class="logo-leaf" aria-hidden="true">🌿</span>
+        <span class="logo-text">GreenRoots</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#about" class="nav-link">Our Story</a></li>
+        <li><a href="#plants" class="nav-link">Plants</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#tips" class="nav-link">Care Tips</a></li>
+        <li><a href="#contact-form" class="nav-link">Contact</a></li>
+        <li><a href="#contact-form" class="nav-cta">Shop Now</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-circle c1"></div>
+        <div class="hero-circle c2"></div>
+        <div class="hero-circle c3"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow">Mumbai, India</p>
+        <h1 id="hero-heading">
+          Grow Something<br />
+          <em>Beautiful.</em>
+        </h1>
+        <p class="hero-sub">
+          From rare monstera to fragrant jasmine — GreenRoots brings nature's finest to your doorstep. Hand-picked
+          plants, expert advice, and a community that grows together.
+        </p>
+        <div class="hero-actions">
+          <a href="#plants" class="btn btn-primary">Browse Plants</a>
+          <a href="#about" class="btn btn-ghost">Our Story</a>
+        </div>
+        <div class="hero-trust" aria-label="Trust indicators">
+          <div class="trust-item">
+            <strong>2,400+</strong>
+            <span>Happy Gardeners</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-item">
+            <strong>180+</strong>
+            <span>Plant Varieties</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-item">
+            <strong>6 yrs</strong>
+            <span>Growing Together</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-showcase">
+
+          <div class="hero-side-card">
+            <img src="images/monstera.png" alt="" class="side-card-img" />
+            <div class="side-card-info">
+              <span class="side-card-name">Monstera Deliciosa</span>
+              <span class="side-card-tag"><i class="ri-sun-line"></i> Easy Care</span>
+            </div>
+          </div>
+
+          <div class="hero-side-card">
+            <img src="images/peace-lily.png" alt="" class="side-card-img" />
+            <div class="side-card-info">
+              <span class="side-card-name">Peace Lily</span>
+              <span class="side-card-tag"><i class="ri-sun-line"></i> Easy Care</span>
+            </div>
+          </div>
+
+          <div class="hero-side-card">
+            <img src="images/snake-plant.png" alt="" class="side-card-img" />
+            <div class="side-card-info">
+              <span class="side-card-name">Snake Plant</span>
+              <span class="side-card-tag"><i class="ri-sun-fill"></i> Very Easy</span>
+            </div>
+          </div>
+
+          <!-- Floating badge -->
+          <div class="floating-badge"><i class="ri-leaf-line"></i> New Arrivals</div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-image-col" aria-hidden="true">
+            <div class="about-img-frame">
+              <div class="img-placeholder">
+                <div class="nursery-art">
+                  <div class="na-shelf"></div>
+                  <div class="na-pot" style="--pot-color:#A5856E; left:10%; bottom:28px;"></div>
+                  <div class="na-pot" style="--pot-color:#6b9e7e; left:38%; bottom:28px; height:90px;"></div>
+                  <div class="na-pot" style="--pot-color:#c4785a; left:65%; bottom:28px;"></div>
+                  <div class="na-light"></div>
+                </div>
+              </div>
+              <div class="about-badge" aria-label="6 plus years of green love">
+                <span class="badge-num">6+</span>
+                <span class="badge-sub">Years of<br />Green Love</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-col">
+            <p class="section-eyebrow">Our Story</p>
+            <h2 id="about-heading" class="section-heading">
+              Rooted in Passion,<br />Grown with Care.
+            </h2>
+            <p class="about-para">
+              GreenRoots started as a small backyard nursery in 2018. What began as a personal obsession with rare
+              houseplants quickly became Lucknow's most loved gardening destination.
+            </p>
+            <p class="about-para">
+              We believe every space — no matter how small — deserves a living, breathing touch of nature. Our team of
+              botanists and plant enthusiasts hand-select every variety we stock, ensuring you get only the healthiest,
+              most vibrant plants.
+            </p>
+            <div class="about-values" aria-label="Our values">
+              <span class="value-chip">🌍 Sustainably Sourced</span>
+              <span class="value-chip">🧑‍🌾 Expert Curated</span>
+              <span class="value-chip">📦 Safe Delivery</span>
+              <span class="value-chip">💚 Community First</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PLANTS ===================== -->
+    <section class="plants" id="plants" aria-labelledby="plants-heading">
+      <div class="container">
+
+        <p class="section-eyebrow center">Our Collection</p>
+        <h2 id="plants-heading" class="section-heading center">Find Your Perfect Plant</h2>
+        <p class="section-sub center">Every plant is nurtured in our nursery before it reaches your home.</p>
+
+        <div class="filter-tabs" role="tablist" aria-label="Filter plants by category">
+          <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">All Plants</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="indoor">Indoor</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="outdoor">Outdoor</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="succulents">Succulents</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="herbs">Herbs</button>
+        </div>
+
+        <div class="plant-grid" id="plant-grid" aria-live="polite">
+
+          <article class="plant-item" data-category="indoor" tabindex="0" aria-label="Monstera Deliciosa, ₹649">
+            <div class="plant-thumb" style="--thumb-bg:#e8f5ee;">
+              <img src="images/monstera.png" alt="Monstera Deliciosa plant" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Indoor</span>
+            </div>
+            <div class="plant-info">
+              <h3>Monstera Deliciosa</h3>
+              <p>The iconic split-leaf philodendron. Air-purifying and stunning in any space.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-sun-line"></i> Easy Care</span>
+                <span class="plant-price">₹649</span>
+              </div>
+              <button class="btn-add" data-plant="Monstera Deliciosa">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="plant-item" data-category="indoor" tabindex="0" aria-label="Peace Lily, ₹399">
+            <div class="plant-thumb" style="--thumb-bg:#f0f7f4;">
+              <img src="images/peace-lily.png" alt="Peace Lily plant" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Indoor</span>
+            </div>
+            <div class="plant-info">
+              <h3>Peace Lily</h3>
+              <p>Elegant white blooms that thrive in low light. Perfect for bedrooms and offices.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-sun-line"></i> Easy Care</span>
+                <span class="plant-price">₹399</span>
+              </div>
+              <button class="btn-add" data-plant="Peace Lily">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="plant-item" data-category="succulents" tabindex="0" aria-label="Echeveria Rosette, ₹199">
+            <div class="plant-thumb" style="--thumb-bg:#f5f8f0;">
+              <img src="images/echeveria.png" alt="Echeveria Rosette succulent" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Succulent</span>
+            </div>
+            <div class="plant-info">
+              <h3>Echeveria Rosette</h3>
+              <p>Rosette-shaped succulent in dusty pink and sage. Minimal water, maximum charm.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-sun-fill"></i> Very Easy</span>
+                <span class="plant-price">₹199</span>
+              </div>
+              <button class="btn-add" data-plant="Echeveria Rosette">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="plant-item" data-category="outdoor" tabindex="0" aria-label="Bougainvillea, ₹549">
+            <div class="plant-thumb" style="--thumb-bg:#fdf0ea;">
+              <img src="images/bougainvillea.png" alt="Bougainvillea plant" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Outdoor</span>
+            </div>
+            <div class="plant-info">
+              <h3>Bougainvillea</h3>
+              <p>Vibrant cascading blooms that transform walls and fences into living art.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-cloud-line"></i> Moderate</span>
+                <span class="plant-price">₹549</span>
+              </div>
+              <button class="btn-add" data-plant="Bougainvillea">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="plant-item" data-category="herbs" tabindex="0" aria-label="Tulsi Holy Basil, ₹149">
+            <div class="plant-thumb" style="--thumb-bg:#eaf5ea;">
+              <img src="images/tulsi.png" alt="Tulsi Holy Basil plant" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Herb</span>
+            </div>
+            <div class="plant-info">
+              <h3>Tulsi — Holy Basil</h3>
+              <p>Sacred, medicinal, and aromatic. A staple for every Indian home and kitchen garden.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-sun-line"></i> Easy Care</span>
+                <span class="plant-price">₹149</span>
+              </div>
+              <button class="btn-add" data-plant="Tulsi">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="plant-item" data-category="succulents" tabindex="0" aria-label="Aloe Vera, ₹249">
+            <div class="plant-thumb" style="--thumb-bg:#eef7ee;">
+              <img src="images/aloe-vera.png" alt="Aloe Vera plant" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Succulent</span>
+            </div>
+            <div class="plant-info">
+              <h3>Aloe Vera</h3>
+              <p>Nature's first-aid plant. Soothing gel, architectural shape, and drought-tolerant.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-sun-fill"></i> Very Easy</span>
+                <span class="plant-price">₹249</span>
+              </div>
+              <button class="btn-add" data-plant="Aloe Vera">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="plant-item" data-category="outdoor" tabindex="0" aria-label="Jasmine Creeper, ₹349">
+            <div class="plant-thumb" style="--thumb-bg:#f5faf0;">
+              <img src="images/jasmine.png" alt="Jasmine Creeper plant" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Outdoor</span>
+            </div>
+            <div class="plant-info">
+              <h3>Jasmine Creeper</h3>
+              <p>Fill your evenings with intoxicating fragrance. Grows beautifully on trellises.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-cloud-line"></i> Moderate</span>
+                <span class="plant-price">₹349</span>
+              </div>
+              <button class="btn-add" data-plant="Jasmine Creeper">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="plant-item" data-category="herbs" tabindex="0" aria-label="Mint Pudina, ₹99">
+            <div class="plant-thumb" style="--thumb-bg:#e8f8f0;">
+              <img src="images/mint.png" alt="Mint Pudina herb" class="plant-img" loading="lazy" />
+              <span class="plant-tag">Herb</span>
+            </div>
+            <div class="plant-info">
+              <h3>Mint — Pudina</h3>
+              <p>Fresh, fast-growing, and endlessly useful. Perfect for kitchen windowsills.</p>
+              <div class="plant-meta">
+                <span class="plant-care"><i class="ri-sun-line"></i> Easy Care</span>
+                <span class="plant-price">₹99</span>
+              </div>
+              <button class="btn-add" data-plant="Mint">Add to Cart</button>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+
+        <p class="section-eyebrow center">What We Offer</p>
+        <h2 id="services-heading" class="section-heading center">More Than Just Plants</h2>
+
+        <div class="services-grid">
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true"><i class="ri-truck-line"></i></div>
+            <h3>Home Delivery</h3>
+            <p>Carefully packed and delivered across Lucknow and nearby cities. Plants arrive healthy, guaranteed.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true"><i class="ri-user-heart-line"></i></div>
+            <h3>Expert Consultation</h3>
+            <p>Free 30-minute consultations with our botanists — in-store or online. Pick the perfect plant for your
+              space.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true"><i class="ri-paint-brush-line"></i></div>
+            <h3>Repotting Service</h3>
+            <p>Bring root-bound plants in. We repot, fertilise, and return them thriving — same-day service available.
+            </p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true"><i class="ri-gift-line"></i></div>
+            <h3>Gift a Plant</h3>
+            <p>Custom plant gift boxes with handwritten cards and care guides. A living gift that keeps growing.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true"><i class="ri-building-line"></i></div>
+            <h3>Office Greening</h3>
+            <p>We design, install, and maintain plant arrangements for offices, cafés, and commercial spaces.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true"><i class="ri-book-open-line"></i></div>
+            <h3>Workshops</h3>
+            <p>Monthly hands-on workshops on propagation, terrariums, and composting. All skill levels welcome.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== CARE TIPS ===================== -->
+    <section class="tips" id="tips" aria-labelledby="tips-heading">
+      <div class="container">
+
+        <p class="section-eyebrow center">Grow Smarter</p>
+        <h2 id="tips-heading" class="section-heading center">Plant Care 101</h2>
+        <p class="section-sub center">Simple rules that keep your plants alive and thriving.</p>
+
+        <div class="tips-grid">
+          <article class="tip-card" tabindex="0">
+            <div class="tip-number" aria-hidden="true">01</div>
+            <div class="tip-icon" aria-hidden="true"><i class="ri-drop-line"></i></div>
+            <h3>Water Wisely</h3>
+            <p>More plants die from overwatering than drought. Check if the top inch of soil is dry before watering.
+              Most indoor plants need water just once or twice a week.</p>
+          </article>
+          <article class="tip-card" tabindex="0">
+            <div class="tip-number" aria-hidden="true">02</div>
+            <div class="tip-icon" aria-hidden="true"><i class="ri-sun-line"></i></div>
+            <h3>Light is Food</h3>
+            <p>Match your plant to available light. South-facing windows = bright light. North-facing = low light.
+              Rotate pots quarterly for even sun exposure.</p>
+          </article>
+          <article class="tip-card" tabindex="0">
+            <div class="tip-number" aria-hidden="true">03</div>
+            <div class="tip-icon" aria-hidden="true"><i class="ri-flower-line"></i></div>
+            <h3>Right Soil, Right Pot</h3>
+            <p>Always use pots with drainage holes. Succulents need sandy, fast-draining mix. Tropical plants love rich,
+              moisture-retaining soil. Never use garden soil indoors.</p>
+          </article>
+          <article class="tip-card" tabindex="0">
+            <div class="tip-number" aria-hidden="true">04</div>
+            <div class="tip-icon" aria-hidden="true"><i class="ri-temp-hot-line"></i></div>
+            <h3>Humidity Matters</h3>
+            <p>Most tropical houseplants need humid environments. Mist leaves regularly or use a water tray — especially
+              during dry Indian summers.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+
+        <p class="section-eyebrow center">What Gardeners Say</p>
+        <h2 id="testimonials-heading" class="section-heading center">Stories from Our Community</h2>
+
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card" tabindex="0">
+            <p class="testimonial-text">"GreenRoots completely transformed my balcony. The team helped me pick plants
+              that actually survive Lucknow's summer heat. My monstera is absolutely thriving!"</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">P</div>
+              <div>
+                <cite class="author-name">Priya Sharma</cite>
+                <span class="author-loc">Gomti Nagar, Lucknow</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card" tabindex="0">
+            <p class="testimonial-text">"Ordered 6 plants online — all arrived perfectly packed with personalised care
+              cards. The jasmine is filling my entire garden with fragrance. 10/10 would recommend."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">A</div>
+              <div>
+                <cite class="author-name">Arjun Mehta</cite>
+                <span class="author-loc">Hazratganj, Lucknow</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card" tabindex="0">
+            <p class="testimonial-text">"The office greening service is phenomenal. Our workspace feels so much calmer
+              now. The team maintains everything — we just enjoy the greenery."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S</div>
+              <div>
+                <cite class="author-name">Sneha Agarwal</cite>
+                <span class="author-loc">Alambagh, Lucknow</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT FORM ===================== -->
+    <section class="contact-section" id="contact-form" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <p class="section-eyebrow center">Get In Touch</p>
+        <h2 id="contact-heading" class="section-heading center">Send Us a Message</h2>
+        <p class="section-sub center">Place an order, ask a question, or request a consultation — we'll respond within 24 hours.</p>
+
+        <div class="contact-wrapper">
+
+          <!-- API Status Panel -->
+          <div class="api-panel" id="api-panel" aria-live="polite">
+            <div class="api-panel-header">
+              <span class="api-dot" id="api-dot"></span>
+              <span class="api-label">API Status</span>
+              <span class="api-status-text" id="api-status-text">Checking…</span>
+            </div>
+            <div class="api-log" id="api-log" aria-label="API request log"></div>
+          </div>
+
+          <div class="contact-form-card">
+            <form class="contact-form" id="contact-form-el" novalidate aria-label="Contact form">
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cf-name">Full Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="cf-name" name="name" placeholder="Priya Sharma"
+                    autocomplete="name" required minlength="2" maxlength="60" />
+                  <span class="field-error" id="err-name" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="cf-email">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" id="cf-email" name="email" placeholder="priya@example.com"
+                    autocomplete="email" required />
+                  <span class="field-error" id="err-email" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cf-phone">Phone Number</label>
+                  <input type="tel" id="cf-phone" name="phone" placeholder="+91 98765 43210"
+                    autocomplete="tel" pattern="[\+\d\s\-]{7,15}" />
+                  <span class="field-error" id="err-phone" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="cf-subject">Subject <span aria-hidden="true">*</span></label>
+                  <select id="cf-subject" name="subject" required>
+                    <option value="">— Select a subject —</option>
+                    <option value="order">Place an Order</option>
+                    <option value="consultation">Expert Consultation</option>
+                    <option value="repotting">Repotting Service</option>
+                    <option value="workshop">Workshop Signup</option>
+                    <option value="other">Other Enquiry</option>
+                  </select>
+                  <span class="field-error" id="err-subject" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="cf-message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="cf-message" name="message" rows="4"
+                  placeholder="Tell us about the plants you're interested in, or describe your space…"
+                  required minlength="10" maxlength="500"></textarea>
+                <div class="char-count"><span id="char-remaining">500</span> characters remaining</div>
+                <span class="field-error" id="err-message" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit-btn" id="form-submit-btn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-loader" aria-hidden="true"></span>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+        <!-- GET Endpoint Demo -->
+        <div class="api-demo-section">
+          <p class="section-eyebrow center" style="margin-top:3rem;">API Playground</p>
+          <h3 class="section-heading center" style="font-size:1.5rem;">Live GET Endpoint Demo</h3>
+          <p class="section-sub center">Fetch our plant catalogue directly from the API.</p>
+          <div class="api-demo-controls">
+            <button class="btn btn-ghost api-fetch-btn" id="btn-fetch-all" data-filter="all">GET /api/plants</button>
+            <button class="btn btn-ghost api-fetch-btn" id="btn-fetch-indoor" data-filter="indoor">GET /api/plants?category=indoor</button>
+            <button class="btn btn-ghost api-fetch-btn" id="btn-fetch-herbs" data-filter="herbs">GET /api/plants?category=herbs</button>
+          </div>
+          <pre class="api-response-box" id="api-response-box" aria-label="API JSON response" aria-live="polite"><code>// Click a button above to fetch plant data from the API</code></pre>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" id="contact" aria-labelledby="footer-brand-heading">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <h2 id="footer-brand-heading" class="footer-logo">
+            <span aria-hidden="true">🌿</span> GreenRoots
+          </h2>
+          <p class="footer-tagline">Grow something beautiful, one plant at a time. Rooted in Lucknow, growing across
+            India.</p>
+          <div class="footer-socials" aria-label="Social media links">
+            <a href="#" aria-label="GreenRoots on Instagram" class="social-link">📸 Instagram</a>
+            <a href="#" aria-label="GreenRoots on Facebook" class="social-link">📘 Facebook</a>
+            <a href="#" aria-label="GreenRoots on YouTube" class="social-link">▶️ YouTube</a>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer site navigation">
+          <h3 class="footer-nav-title">Explore</h3>
+          <ul role="list">
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#plants">Plant Shop</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#tips">Care Tips</a></li>
+            <li><a href="#testimonials">Community</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="Footer support navigation">
+          <h3 class="footer-nav-title">Support</h3>
+          <ul role="list">
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Plant Guarantee</a></li>
+            <li><a href="#">Returns Policy</a></li>
+            <li><a href="#">Workshop Signup</a></li>
+            <li><a href="#">Care FAQs</a></li>
+          </ul>
+        </nav>
+
+        <address class="footer-contact" aria-label="Contact information">
+          <h3 class="footer-nav-title">Visit Us</h3>
+          <ul class="footer-contact-list" role="list">
+            <li><span aria-hidden="true">📍</span>Mumbai, Maharashtra</li>
+            <li><a href="tel:+919876543210"><span aria-hidden="true">📞</span> +91 98765 43210</a></li>
+            <li><a href="mailto:hello@greenroots.in"><span aria-hidden="true">✉️</span> hello@greenroots.in</a></li>
+            <li><span aria-hidden="true">🕐</span> Mon – Sun: 8am – 7pm</li>
+          </ul>
+        </address>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 GreenRoots Nursery. All rights reserved.</p>
+        <p class="footer-credit">Built with 💚 using HTML · CSS · JavaScript · REST API</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
